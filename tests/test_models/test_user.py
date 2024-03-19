@@ -17,7 +17,7 @@ class TestUser(unittest.TestCase):
     def test_email(self):
         '''test_email tests the email of the user'''
         self.assertEqual(type(self.instance.email), str)
-        self.assetEqual(self.instance.email, '')
+        self.assertEqual(self.instance.email, '')
 
     def test_password(self):
         '''test_password tests the password of the user'''
