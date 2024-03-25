@@ -1,0 +1,16 @@
+/* This file contains all footer related css */
+
+section {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  height: 60px;
+  background-color: #00FF00;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+}
