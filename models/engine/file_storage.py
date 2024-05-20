@@ -4,8 +4,7 @@ import json
 
 
 class FileStorage:
-    """A class that serializes instances
-    to a JSON file and deserializes JSON file to instances"""
+    """A class that serializes instances to a JSON file and deserializes JSON file to instances"""
     __file_path = "file.json"
     __objects = {}
 
@@ -28,11 +27,7 @@ class FileStorage:
                 json.dump(self.__objects, file, indent=2)
 
     def reload(self):
-        """
-        deserializes the JSON file to __objects
-        (only if the JSON file (__file_path) exists ; otherwise, do nothing.
-        If the file doesn’t exist, no exception should be raised)
-        """
+        """deserializes the JSON file to __objects (only if the JSON file (__file_path) exists ; otherwise, do nothing. If the file doesn’t exist, no exception should be raised)"""
 
         try:
             with open(self.__file_path, 'r') as file:
