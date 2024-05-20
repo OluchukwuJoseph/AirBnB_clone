@@ -17,12 +17,12 @@ class User(BaseModel):
   	"""
 
 	email = ""
-  	password = ""
-  	first_name = ""
-  	last_name = ""
+	password = ""
+	first_name = ""
+	last_name = ""
 
 	def __str__(self):
 		"""
-        	Return a string representation of the State object.
-        	"""
-    		return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"
+        Return a string representation of the State object.
+    	"""
+		return f"[{self.__class__.__name__}] ({self.id}) {self.__dict__}"

@@ -8,8 +8,8 @@ from models.base_model import BaseModel
 
 class Amenity(BaseModel):
 	"""
-    	A class representing an amenity in an Airbnb clone project.
-    	"""
+    A class representing an amenity in an Airbnb clone project.
+    """
 	name = ""
 
 	def __str__(self):
