@@ -1,0 +1,12 @@
+/* This file contains global styles for '3-index.html' */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #484848;
+}
