@@ -1,0 +1,25 @@
+.places {
+    margin-top: 30px;
+}
+
+.places h1,
+.places article h2 {
+    font-size: 30px;
+}
+
+.places article {
+    display: inline-block;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+}
+
+.places article:last-of-type {
+    margin-left: 25%;
+}
+
+.places article h2 {
+    text-align: center;
+}

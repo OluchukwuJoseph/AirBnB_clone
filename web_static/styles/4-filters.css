@@ -20,6 +20,7 @@ section.filters button {
     position: absolute;
     right: 20px;
     cursor: pointer;
+    margin-top: 11px;
     transition: opacity 0.2s;
 }
 
