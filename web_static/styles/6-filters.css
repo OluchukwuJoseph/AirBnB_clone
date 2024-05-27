@@ -1,4 +1,4 @@
-/* This file containes filter styles for '5-index.html' */
+/* This file containes filter styles for '6-index.html' */
 
 section.filters {
     height: 70px;
@@ -31,9 +31,10 @@ section.filters button {
 .filters .locations,
 .filters .amenities {
     display: inline-block;
-    padding-top: 13px;
+    padding-top: 18px;
     height: 100%;
     width: 25%;
+    position: relative;
 }
 
 .filters .locations {
@@ -51,4 +52,42 @@ section.filters button {
     font-size: 14px;
     font-weight: 400;
     text-indent: 20%;
+    margin-bottom: 15px;
+}
+
+.locations .popover,
+.amenities .popover {
+    background-color: #FAFAFA;
+    border: solid 1px #DDDDDD;
+    padding: 30px 20px;
+    list-style-type: none;
+    width: 100%;
+    border-radius: 4px;
+    position: absolute;
+    display: none;
+}
+
+div .popover ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+div .popover ul:last-of-type {
+    margin-bottom: 0px;
+}
+
+div .popover li,
+div .popover ul li {
+    text-indent:  15px;
+    padding: 1.5px;
+}
+
+div .popover ul li:first-child {
+    text-indent: 0px;
+    margin-bottom: 4px;
+}
+
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
+    display: inline-block;
 }
