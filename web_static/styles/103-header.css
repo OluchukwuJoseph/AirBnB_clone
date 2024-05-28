@@ -1,0 +1,10 @@
+/* This file contains header styles for '3-index.html', '4-index.html' and '5-index.html'*/
+
+header {
+    background-color: white;
+    height: 70px;
+    border-bottom: solid 1px #CCCCCC;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}

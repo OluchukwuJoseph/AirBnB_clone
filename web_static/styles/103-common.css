@@ -1,0 +1,21 @@
+/* This file contains global styles for '4-index.html', '5-index.html' and '6-index.html'*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #484848;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.container {
+    min-width: 100px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
